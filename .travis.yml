@@ -6,4 +6,4 @@ dis: xenial
   - source ~/catkin_ws/devel/setup.bash
   - bash -xve ./test/travis_prepare_dummy_files.bash
 script:
-  - rostest cpimouse_run_corridor wall_stop.lauch
+  - rostest cpimouse_run_corridor wall_stop.launch
